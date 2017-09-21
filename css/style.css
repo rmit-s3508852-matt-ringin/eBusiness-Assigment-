@@ -1,0 +1,536 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 1100px; 
+    padding-top: 30px;
+    margin: auto;
+    background-color: #f7f7f7;
+}
+
+/*****************************************************************Footer*********************************************************************/
+.footer {
+    width: 100%;
+    height: 150px;
+    border: black solid 1px;
+    background-color: #232526;
+    margin: auto;
+}
+
+.footerWrapper {
+    width: 1400px;
+    height: 100%;
+    margin: auto;
+}
+
+.footerList {
+    width: 350px;
+    height: 100%;
+    float: left;
+
+    color: #ededed;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer li {
+     list-style-type: none;
+}
+
+.footerHelp li:hover {
+    
+    color: #487589;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.fa {
+    padding: 5px;
+    padding-top: 30px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    color: #487589;
+}
+
+#social {
+    margin-top: 20px;
+}
+
+.logoFooter {
+    width: 20%;
+}
+
+.link {
+   text-decoration: none;
+   color: white;
+}
+
+.link:hover {
+    
+    color: #487589;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*****************************************************************Navbar*********************************************************************/
+.navbar {
+    width: 100%;
+    height: 40px;
+    border-bottom: 0px;
+    margin: auto;
+    background-color: #232526;
+}
+
+.navWrapper {
+    width: 1400px;
+    margin: auto;
+}
+
+.navWrapper a {
+    width: 190px;
+    height: 100%;
+    display: block;
+
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    float: left;
+    margin: auto;
+    
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #ededed;
+    line-height: 40px;
+    
+}
+
+.navWrapper a:hover {
+    background-color: #487589;
+    color: black;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.cartIcon {
+    width: 12%;
+    color: white;
+}
+
+
+/*****************************************************************Home*********************************************************************/
+.welcome {
+    width: 300px;
+    height: 50px; 
+    margin: auto;
+    border: 1px solid black;
+    
+    line-height: 50px;
+    text-align: center;
+    font-size: 26px;
+    box-shadow: 4px 4px;
+
+    background-color: white;
+}
+
+.intro {
+    width: 600px;
+    height: 50px; 
+    margin: auto;
+    margin-top: 20px;
+
+    border: 1px dotted black;
+    background-color: white;
+    
+    line-height: 50px;
+    text-align: center;
+}
+
+.pageBreak {
+    margin: auto;
+    width: 1100px;
+    height: 1px;
+    border-top: 1px solid black;
+    
+
+    margin-top: 50px;
+}
+
+.bestSellers {
+    width: 600px;
+    height: 50px; 
+    margin: auto;
+    margin-top: 20px;
+
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.333%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 30px;
+    text-align: center;
+    height: 600px;
+}
+ 
+#canvas {background-color:#232526;}
+#clothes {background-color:#232526;}
+#devices {background-color:#232526;}
+
+.selector {
+    width: 1400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.bestItem {
+    height: 500px;
+    width: 320px; 
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    border: 1px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.bestItemImage {
+    width: 95%;
+    margin-top: 20px;
+}
+
+.bestItemInfo {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.logoHome {
+    width: 100px;
+    float: right;
+    margin-right: 10%;
+}
+
+.bestSellers {
+    font-size: 30px;
+}
+
+/*****************************************************************About*********************************************************************/
+
+.story {
+    width: 700px;
+    height: 220px; 
+    margin: auto;
+    margin-top: 20px;
+    padding:20px;
+
+    border: 1px dotted black;
+    background-color: white;
+    
+    line-height: 30px;
+    text-align: center;
+
+    font-size: 16px;
+}
+
+.contactInfo {
+    width: 600px;
+    height: 50px; 
+    margin: auto;
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.profileWrapper {
+    width: 1100px;
+    height: 600px; 
+    margin: auto;
+    margin-top: 20px;
+
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.profile {
+    width: 500px;
+    height: 240px;
+    background-color: #f2f2f2;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.profileImage {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 3px solid black;
+}
+
+.profileInfo {
+    margin-top: 80px;
+    font-size: 2em;
+}
+
+.phone {
+     margin-top: 80px;
+}
+
+.link#alt {
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.link#alt:hover {
+    color: #487589;
+   
+}
+
+/*****************************************************************Button*********************************************************************/
+
+.button {
+  display: block;
+  border-radius: 4px;
+  background-color: #003987;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.button#canvas {
+    background-color: #003987;
+} 
+
+.button#clothes {
+    background-color: #870000;
+}
+
+.button#devices {
+    background-color: #008751;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*****************************************************************Contact Us*********************************************************************/
+
+.contactIntro {
+    width: 600px;
+    height: 220px; 
+    margin: auto;
+    margin-top: 20px;
+
+    border: 1px dotted black;
+    background-color: white;
+    
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.emailWrapper {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+
+.emailForm {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #008e2f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #d60000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset]:hover {
+    background-color: #ff0000;
+}
+
+#comment {
+     min-height:100px;
+      line-height: 1.5em;
+}
+
+
+/*****************************************************************Canvas*********************************************************************/
+
+.storeWrapper {
+    width: 1400px; 
+    height: 800px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #e0e0e0;
+}
+
+.storeNav {
+    float: left;
+    height: 100%;
+    width: 200px;
+    background-color: #232526;
+}
+
+.sideNav {
+     list-style-type: none;
+     margin: auto;
+     margin-top: 60px;
+     font-size: 20px;
+     color: white;
+}
+
+.navCategories {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.navSelection {
+    background-color: #232526; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.navSelection:hover {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.storeItem {
+    width: 260px;
+    height: 350px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 4px 4px black;
+    background-color: #cecece;
+    display: block;
+}
+
+.storeItemImage {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 35px;
+
+}
+
+.storeItemInfo {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
