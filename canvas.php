@@ -23,7 +23,7 @@
           <div class="storeItem tv showcase"> 
                 <img src="images/canvas/himym.jpg" alt="How I met your mother canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     Barney Canvas - 60 x 60<br><br>
+                     Barney - 60cm x 60cm<br><br>
                      $50 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>
@@ -31,7 +31,7 @@
           <div class="storeItem tv new showcase"> 
               <img src="images/canvas/got.jpg" alt="Game of thrones canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     Tyrion - 30 x 30<br><br>
+                     Tyrion - 30cm x 30cm<br><br>
                      $20 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>
@@ -39,7 +39,7 @@
           <div class="storeItem new showcase"> 
               <img src="images/canvas/coco.jpg" alt="Coco canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     Coco - 30 x 30<br><br>
+                     Coco - 30cm x 30cm<br><br>
                      $20 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>
@@ -47,7 +47,7 @@
           <div class="storeItem music showcase"> 
               <img src="images/canvas/drummer.jpg" alt="Drummer canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     Drummer - 60 x 60<br><br>
+                     Drummer - 60cm x 60cm<br><br>
                      $50 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>
@@ -55,7 +55,7 @@
           <div class="storeItem tv showcase"> 
               <img src="images/canvas/gotHouses.jpg" alt="Game of thrones houses canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     GoT Houses - 40 x 40<br><br>
+                     GoT Houses - 40cm x 40cm<br><br>
                      $30 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>
@@ -63,7 +63,7 @@
           <div class="storeItem tv new showcase"> 
               <img src="images/canvas/sherlock.jpg" alt="Sherlock canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     Sherlock - 30 x 30<br><br>
+                     Sherlock - 30cm x 30cm<br><br>
                      $20 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>
@@ -71,7 +71,7 @@
           <div class="storeItem memes new showcase"> 
               <img src="images/canvas/sunglasses.jpg" alt="Sunglasses canvas" class="storeItemImage">
                 <div class ="storeItemInfo"> 
-                     Sunglasses - 30 x 30<br><br>
+                     Sunglasses - 30cm x 30cm<br><br>
                      $20 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                 </div>

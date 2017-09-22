@@ -31,7 +31,7 @@
              <div class="bestItem"> 
                  <img src="images/canvas/himym.jpg" alt="Batman phone case" class="bestItemImage">
                  <div class ="bestItemInfo"> 
-                     Barney Canvas - 60 x 60<br><br>
+                     Barney - 60cm x 60cm<br><br>
                      $50 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
@@ -39,7 +39,7 @@
              <div class="bestItem"> 
                  <img src="images/canvas/got.jpg" alt="Batman phone case" class="bestItemImage">
                  <div class ="bestItemInfo"> 
-                     Tyrion Canvas - 30 x 30<br><br>
+                     Tyrion - 30cm x 30cm<br><br>
                      $20 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
@@ -48,7 +48,7 @@
              <div class="bestItem"> 
                  <img src="images/canvas/cavill.jpg" alt="Batman phone case" class="bestItemImage">
                  <div class ="bestItemInfo"> 
-                     Cavill Canvas - 30 x 30<br><br>
+                     Cavill - 30cm x 30cm<br><br>
                      $20 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
@@ -57,7 +57,7 @@
              <div class="bestItem">
                  <img src="images/canvas/sherlock.jpg" alt="Batman phone case" class="bestItemImage"> 
                  <div class ="bestItemInfo"> 
-                     Sherlock Canvas - 40 x 40<br><br>
+                     Sherlock - 40cm x 40cm<br><br>
                      $40 
                      <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
@@ -69,7 +69,7 @@
              <div class="bestItem"> 
                  <img src="images/shirts/floydConor.png" alt="Floyd Mayweather and Conor McGregor shirt" class="bestItemImage">
                  <div class ="bestItemInfo"> 
-                     Mayweather and McGregor <br><br>
+                     Mayweather and McGregor Shirt <br><br>
                      $30 
                      <button class="button" style="vertical-align:middle"  id ="clothes"><span>Add to cart</span></button>
                  </div>
@@ -78,7 +78,7 @@
              <div class="bestItem"> 
                  <img src="images/shirts/nightman.png" alt="Nightman Shirt" class="bestItemImage">
                   <div class ="bestItemInfo"> 
-                     Nightman <br><br>
+                     Nightman Shirt<br><br>
                      $30 
                      <button class="button" style="vertical-align:middle" id ="clothes"><span>Add to cart</span></button>
                  </div>
@@ -86,7 +86,7 @@
              <div class="bestItem"> 
                  <img src="images/shirts/trump.png" alt="Trump shirt" class="bestItemImage">
                   <div class ="bestItemInfo"> 
-                     Trump Card<br><br>
+                     Trump Card Shirt<br><br>
                      $30 
                      <button class="button" style="vertical-align:middle" id ="clothes"><span>Add to cart </span></button>
                  </div>
@@ -94,7 +94,7 @@
              <div class="bestItem"> 
                  <img src="images/shirts/yeezy.png" alt="Yeezy shirt" class="bestItemImage">
                   <div class ="bestItemInfo"> 
-                     Yeezy <br><br>
+                     Yeezy Shirt<br><br>
                      $30 
                      <button class="button" style="vertical-align:middle" id ="clothes"><span>Add to cart </span></button>
                  </div>
@@ -105,7 +105,7 @@
              <div class="bestItem"> 
                  <img src="images/cases/batman.png" alt="Batman phone case" class="bestItemImage">
                   <div class ="bestItemInfo"> 
-                     Nightman <br><br>
+                     Nightman iPhone case<br><br>
                      $15 
                      <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
@@ -113,7 +113,7 @@
              <div class="bestItem">
                  <img src="images/cases/moneyFight.png" alt="Money fight phone case" class="bestItemImage" class ="phone"> 
                  <div class ="bestItemInfo"> 
-                     Mayweather and McGregor <br><br>
+                     Mayweather/McGregor iPhone case<br><br>
                      $15 
                      <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
@@ -121,7 +121,7 @@
              <div class="bestItem">
                  <img src="images/cases/trump.png" alt="Trump phone case" class="bestItemImage"> 
                  <div class ="bestItemInfo"> 
-                     Trump <br><br>
+                     Trump iPhone case<br><br>
                      $15 
                      <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
@@ -129,7 +129,7 @@
              <div class="bestItem">
                  <img src="images/cases/yeezy.png" alt="Yeezy phone case" class="bestItemImage"> 
                  <div class ="bestItemInfo"> 
-                     Yeezy <br><br>
+                     Yeezy iPhone case<br><br>
                      $15 
                      <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
