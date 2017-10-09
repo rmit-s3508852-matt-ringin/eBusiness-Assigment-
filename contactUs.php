@@ -9,7 +9,7 @@
 
     <?php include "sections/navbar.php"; ?>
 
-    <div class="main">
+    <div class="main" id="aboutPage"> 
         
         <img src="images/logo.png" alt="Edgy prints logo" class="logoHome">
         <div class="welcome"> Contact Us </div>
@@ -34,6 +34,10 @@
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
         </form>
+        </div>
+
+        	 <iframe class="map" width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=melbourne%20central&key=AIzaSyCwX7d3nd5hYDawEvLAfR52iNaZPHHpvtU" allowfullscreen></iframe>
         </div>
 
     </div>

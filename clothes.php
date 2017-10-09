@@ -20,38 +20,34 @@
          
          <?php include "sections/storeNav.php"; ?>
 
-          <div class="storeItem sport showcase"> 
+          <a href ="zShirtFight.php" class="storeItem sport showcase"> 
                 <img src="images/shirts/floydConor.png" alt="Floyd Mayweather and Conor McGregor shirt" class="storeItemImage">
                 <div class ="storeItemInfo"> 
                      Floyd/Conor<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="shirt"><span>Add to cart</span></button>
                 </div>
-          </div>
-          <div class="storeItem memes new showcase"> 
+          </a>
+          <a href ="zShirtBatman.php" class="storeItem memes new showcase"> 
               <img src="images/shirts/nightman.png" alt="Nightman Shirt" class="storeItemImage">
                 <div class ="storeItemInfo"> 
                      Nightman<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="shirt"><span>Add to cart</span></button>
                 </div>
-          </div>
-          <div class="storeItem new memes showcase"> 
+          </a>
+          <a href ="zShirtTrump.php" class="storeItem new memes showcase"> 
               <img src="images/shirts/trump.png" alt="Trump shirt" class="storeItemImage">
                 <div class ="storeItemInfo"> 
                      Trump<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="shirt"><span>Add to cart</span></button>
                 </div>
-          </div>
-          <div class="storeItem memes showcase"> 
+          </a>
+          <a href ="zShirtYeezy.php" class="storeItem memes showcase"> 
               <img src="images/shirts/yeezy.png" alt="Yeezy shirt" class="storeItemImage">
                 <div class ="storeItemInfo"> 
                      Yeezy<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="shirt"><span>Add to cart</span></button>
                 </div>
-          </div>
+          </a>
           </div>
          </div>
 

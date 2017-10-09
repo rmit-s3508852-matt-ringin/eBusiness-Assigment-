@@ -33,7 +33,6 @@
                  <div class ="bestItemInfo"> 
                      Barney - 60cm x 60cm<br><br>
                      $50 
-                     <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
              </div>
              <div class="bestItem"> 
@@ -41,7 +40,6 @@
                  <div class ="bestItemInfo"> 
                      Tyrion - 30cm x 30cm<br><br>
                      $20 
-                     <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
 
              </div>
@@ -50,7 +48,6 @@
                  <div class ="bestItemInfo"> 
                      Cavill - 30cm x 30cm<br><br>
                      $20 
-                     <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
 
              </div>
@@ -59,7 +56,6 @@
                  <div class ="bestItemInfo"> 
                      Sherlock - 40cm x 40cm<br><br>
                      $40 
-                     <button class="button" style="vertical-align:middle" id ="canvas"><span>Add to cart</span></button>
                  </div>
 
              </div>
@@ -71,7 +67,6 @@
                  <div class ="bestItemInfo"> 
                      Mayweather and McGregor Shirt <br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle"  id ="clothes"><span>Add to cart</span></button>
                  </div>
 
              </div>
@@ -80,7 +75,6 @@
                   <div class ="bestItemInfo"> 
                      Nightman Shirt<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="clothes"><span>Add to cart</span></button>
                  </div>
              </div>
              <div class="bestItem"> 
@@ -88,7 +82,6 @@
                   <div class ="bestItemInfo"> 
                      Trump Card Shirt<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="clothes"><span>Add to cart </span></button>
                  </div>
              </div>
              <div class="bestItem"> 
@@ -96,7 +89,6 @@
                   <div class ="bestItemInfo"> 
                      Yeezy Shirt<br><br>
                      $30 
-                     <button class="button" style="vertical-align:middle" id ="clothes"><span>Add to cart </span></button>
                  </div>
              </div>
          </div>
@@ -107,7 +99,6 @@
                   <div class ="bestItemInfo"> 
                      Nightman iPhone case<br><br>
                      $15 
-                     <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
              </div>
              <div class="bestItem">
@@ -115,7 +106,6 @@
                  <div class ="bestItemInfo"> 
                      Mayweather/McGregor iPhone case<br><br>
                      $15 
-                     <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
              </div>
              <div class="bestItem">
@@ -123,7 +113,6 @@
                  <div class ="bestItemInfo"> 
                      Trump iPhone case<br><br>
                      $15 
-                     <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
              </div>
              <div class="bestItem">
@@ -131,7 +120,6 @@
                  <div class ="bestItemInfo"> 
                      Yeezy iPhone case<br><br>
                      $15 
-                     <button class="button" style="vertical-align:middle" id ="devices"><span>Add to cart </span></button>
                  </div>
              </div>
          </div>

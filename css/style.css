@@ -247,6 +247,10 @@ html, body {
 
 /*****************************************************************About*********************************************************************/
 
+#aboutPage {
+	height: 1600px;
+}
+
 .story {
     width: 700px;
     height: 220px; 
@@ -462,6 +466,10 @@ input[type=reset]:hover {
       line-height: 1.5em;
 }
 
+.map {
+	margin-top: 100px;
+}
+
 
 /*****************************************************************Canvas*********************************************************************/
 
@@ -516,8 +524,14 @@ input[type=reset]:hover {
     margin-top: 20px;
     border: 1px solid black;
     box-shadow: 4px 4px black;
-    background-color: #cecece;
+    background-color: #fcfcfc;
     display: block;
+}
+
+.storeItem:hover {
+
+    box-shadow: 7px 7px black;
+    border: 1px solid #e5bf00;
 }
 
 .storeItemImage {
@@ -533,4 +547,76 @@ input[type=reset]:hover {
     color: black;
     font-size: 16px;
     font-weight: bold;
+}
+
+
+/*****************************************************************Single Item*********************************************************************/
+
+
+.singleItem {
+	
+	width: 900px;
+    height: 700px; 
+    margin: auto;
+    margin-top: 20px;
+    padding:20px;
+
+    border: 1px dotted black;
+    background-color: white;
+    
+    line-height: 30px;
+    text-align: center;
+
+    font-size: 18px;
+	
+}
+
+.singleItemImage {
+	margin-bottom: 10px;
+}
+
+.singleItemInfo {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.productTest {
+	text-decoration: none;
+	color: black;
+}
+
+.itemCart {
+    width: 30%;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+.item {
+    width: 85%;
+    margin: auto;
+    border: 3px solid #fcfcfc;
+}
+
+
+
+
+/*****************************************************************Cart********************************************************************/
+
+.cartBox {
+    height: 600px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: white;
+    border: 1px dotted black;
+}
+
+.cartForm {
+    margin: auto;
+}
+
+#cartCheckout {
+    background-color: #003987;
 }
