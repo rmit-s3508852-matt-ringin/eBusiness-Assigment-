@@ -14,7 +14,7 @@
         <div class = "footerList footerHelp">
              <ul>
                 <li><a href="about.php" class = "link">About Us</a></li>
-                <li>Privacy Policy </li>
+                <li><a href="research.php" class = "link">Research</a></li>
                 <li><a href="contactUs.php" class = "link">Contact Us</a></li>
                 <li>FAQ </li>
             </ul>

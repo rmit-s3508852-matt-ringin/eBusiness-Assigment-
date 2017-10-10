@@ -28,100 +28,108 @@
          <button class="tablink" onclick="openType('devices', this, '#008751')">Devices</button>
 
          <div id="canvas" class="tabcontent">
-             <div class="bestItem"> 
-                 <img src="images/canvas/himym.jpg" alt="Batman phone case" class="bestItemImage">
+             <a href ="zCanvasBarney.php" class="bestItem"> 
+                 <img src="images/canvas/himym.jpg" alt="How I met your mother canvas" class="bestItemImage">
                  <div class ="bestItemInfo"> 
                      Barney - 60cm x 60cm<br><br>
                      $50 
                  </div>
-             </div>
-             <div class="bestItem"> 
-                 <img src="images/canvas/got.jpg" alt="Batman phone case" class="bestItemImage">
+             </a>
+
+             <a href ="zCanvasTyrion.php" class="bestItem"> 
+                 <img src="images/canvas/got.jpg" alt="Game of thrones canvas" class="bestItemImage">
                  <div class ="bestItemInfo"> 
                      Tyrion - 30cm x 30cm<br><br>
                      $20 
                  </div>
+             </a>
 
-             </div>
-             <div class="bestItem"> 
-                 <img src="images/canvas/cavill.jpg" alt="Batman phone case" class="bestItemImage">
+             <a href ="zCanvasCoco.php" class="bestItem"> 
+                 <img src="images/canvas/coco.jpg" alt="Coco canvas" class="bestItemImage">
                  <div class ="bestItemInfo"> 
-                     Cavill - 30cm x 30cm<br><br>
+                     Coco - 30cm x 30cm<br><br>
                      $20 
                  </div>
+             </a>
 
-             </div>
-             <div class="bestItem">
-                 <img src="images/canvas/sherlock.jpg" alt="Batman phone case" class="bestItemImage"> 
+             <a href ="zCanvasSherlock.php" class="bestItem">
+                 <img src="images/canvas/sherlock.jpg" alt="Sherlock Canvas" class="bestItemImage"> 
                  <div class ="bestItemInfo"> 
                      Sherlock - 40cm x 40cm<br><br>
                      $40 
                  </div>
 
-             </div>
+             </a>
          </div>
 
          <div id="clothes" class="tabcontent">
-             <div class="bestItem"> 
+             <a href ="zShirtFight.php" class="bestItem"> 
                  <img src="images/shirts/floydConor.png" alt="Floyd Mayweather and Conor McGregor shirt" class="bestItemImage">
                  <div class ="bestItemInfo"> 
                      Mayweather and McGregor Shirt <br><br>
                      $30 
                  </div>
+             </a>
 
-             </div>
-             <div class="bestItem"> 
+             <a href ="zShirtBatman.php" class="bestItem"> 
                  <img src="images/shirts/nightman.png" alt="Nightman Shirt" class="bestItemImage">
                   <div class ="bestItemInfo"> 
                      Nightman Shirt<br><br>
                      $30 
                  </div>
-             </div>
-             <div class="bestItem"> 
+             </a>
+
+             <a href ="zShirtTrump.php" class="bestItem"> 
                  <img src="images/shirts/trump.png" alt="Trump shirt" class="bestItemImage">
                   <div class ="bestItemInfo"> 
                      Trump Card Shirt<br><br>
                      $30 
                  </div>
-             </div>
-             <div class="bestItem"> 
+             </a>
+
+             <a href ="zShirtYeezy.php" class="bestItem"> 
                  <img src="images/shirts/yeezy.png" alt="Yeezy shirt" class="bestItemImage">
                   <div class ="bestItemInfo"> 
                      Yeezy Shirt<br><br>
                      $30 
                  </div>
-             </div>
+             </a>
+
          </div>
 
          <div id="devices" class="tabcontent">
-             <div class="bestItem"> 
+             <a href ="zCaseBatman.php" class="bestItem"> 
                  <img src="images/cases/batman.png" alt="Batman phone case" class="bestItemImage">
                   <div class ="bestItemInfo"> 
                      Nightman iPhone case<br><br>
                      $15 
                  </div>
-             </div>
-             <div class="bestItem">
+             </a>
+
+             <a href ="zCaseFight.php" class="bestItem">
                  <img src="images/cases/moneyFight.png" alt="Money fight phone case" class="bestItemImage" class ="phone"> 
                  <div class ="bestItemInfo"> 
                      Mayweather/McGregor iPhone case<br><br>
                      $15 
                  </div>
-             </div>
-             <div class="bestItem">
+             </a>
+
+             <a href ="zCaseTrump.php" class="bestItem">
                  <img src="images/cases/trump.png" alt="Trump phone case" class="bestItemImage"> 
                  <div class ="bestItemInfo"> 
                      Trump iPhone case<br><br>
                      $15 
                  </div>
-             </div>
-             <div class="bestItem">
+             </a>
+
+             <a href ="zCaseYeezy.php" class="bestItem">
                  <img src="images/cases/yeezy.png" alt="Yeezy phone case" class="bestItemImage"> 
                  <div class ="bestItemInfo"> 
                      Yeezy iPhone case<br><br>
                      $15 
                  </div>
-             </div>
+             </a>
+
          </div>
         </div>
 

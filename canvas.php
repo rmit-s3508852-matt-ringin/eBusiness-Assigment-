@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
- <head>
+ <head> 
   <?php include "sections/header.php"; ?>
   <title>Canvas</title>
  </head>

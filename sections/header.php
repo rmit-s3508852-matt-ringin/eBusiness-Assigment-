@@ -9,4 +9,17 @@
     //--------------------------------------------------------------
     // Visit NOP Design at http://www.nopdesign.com/freecart
     //==============================================================
-   </script>
+    </script>
+
+    <script>
+        function goBack() {
+        window.history.back();
+        }
+    </script>
+
+    <?php
+        
+        if(!isset($_SESSION['login'])){ //if login in session is not set
+            
+        }
+    ?>

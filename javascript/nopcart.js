@@ -89,7 +89,7 @@ MonetarySymbol        = '$';
 DisplayNotice         = true;
 DisplayShippingColumn = true;
 DisplayShippingRow    = true;
-DisplayTaxRow         = false;
+DisplayTaxRow         = true;
 TaxRate               = 0.07;
 TaxByRegion           = false;
 TaxPrompt             = 'For tax purposes, please select if you are an Arizona resident before continuing';
@@ -560,12 +560,12 @@ function ManageCart( ) {
 
    if ( bDisplay )
       strOutput = "<TABLE CLASS=\"nopcart\"><TR>" +
-                  "<TD CLASS=\"nopheader\"><B>"+strILabel+"</B></TD>" +
-                  "<TD CLASS=\"nopheader\"><B>"+strDLabel+"</B></TD>" +
-                  "<TD CLASS=\"nopheader\"><B>"+strQLabel+"</B></TD>" +
-                  "<TD CLASS=\"nopheader\"><B>"+strPLabel+"</B></TD>" +
-                  (DisplayShippingColumn?"<TD CLASS=\"nopheader\"><B>"+strSLabel+"</B></TD>":"") +
-                  "<TD CLASS=\"nopheader\"><B>"+strRLabel+"</B></TD></TR>";
+                  "<TD CLASS=\"nopheader\">"+strILabel+"</TD>" +
+                  "<TD CLASS=\"nopheader\">"+strDLabel+"</TD>" +
+                  "<TD CLASS=\"nopheader\">"+strQLabel+"</TD>" +
+                  "<TD CLASS=\"nopheader\">"+strPLabel+"</TD>" +
+                  (DisplayShippingColumn?"<TD CLASS=\"nopheader\">"+strSLabel+"</TD>":"") +
+                  "<TD CLASS=\"nopheader\">"+strRLabel+"</TD></TR>";
 
    if ( iNumberOrdered == 0 ) {
       strOutput += "<TR><TD COLSPAN=6 CLASS=\"nopentry\"><CENTER><BR><B>Your cart is empty</B><BR><BR></CENTER></TD></TR>";
@@ -612,7 +612,7 @@ function ManageCart( ) {
             if ( parseFloat(fields[4]) > 0 )
                strOutput += "<TD CLASS=\"nopentry\">"+ MonetarySymbol + moneyFormat(fields[4]) + "/ea</TD>";
             else
-               strOutput += "<TD CLASS=\"nopentry\">N/A</TD>";
+               strOutput += "<TD CLASS=\"nopentry\">Free</TD>";
          }
 
          strOutput += "<TD CLASS=\"nopentry\" ALIGN=CENTER><input type=button value=\" "+strRButton+" \" onClick=\"RemoveFromCart("+i+")\" class=\"nopbutton\"></TD></TR>";
@@ -786,7 +786,7 @@ function CheckoutCart( ) {
             if ( parseFloat(fields[4]) > 0 )
                strOutput += "<TD CLASS=\"nopentry\">"+ MonetarySymbol + moneyFormat(fields[4]) + "/ea</TD>";
             else
-               strOutput += "<TD CLASS=\"nopentry\">N/A</TD>";
+               strOutput += "<TD CLASS=\"nopentry\">Free</TD>";
          }
 
          strOutput += "</TR>";
