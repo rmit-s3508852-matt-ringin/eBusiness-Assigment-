@@ -25,10 +25,18 @@
 
 	        foreach(file('database/users.txt') as $line) {
 		
-                       list($a,$b,$c,$d,$e) = explode(",",$line);
+                       list($a,$b,$c,$d,$e,$f) = explode(",",$line);
                       $b2 = trim($b);
                        if ($a == $user && $b2 == $pass){
-			        $exist = 1;
+			        
+                    $exist = 1;
+
+                    $_SESSION['$user'] = $a;
+    		        $_SESSION['$password'] = $b;
+    		        $_SESSION['$name'] = $c;
+    		        $_SESSION['$address'] = $d;
+    		        $_SESSION['$email'] = $e;
+			        $_SESSION['$newsletter'] = $f;
 			        break;
 		        }
 	        }
