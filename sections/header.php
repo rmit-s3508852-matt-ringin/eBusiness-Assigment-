@@ -5,8 +5,12 @@
         ob_start();
         session_start();
 
-        
-		header('Location: login.php');
+        if  (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == 'true') {
+		
+        }
+        else {
+        header('Location: login.php');
+        }
 
         ob_end_flush();
 
