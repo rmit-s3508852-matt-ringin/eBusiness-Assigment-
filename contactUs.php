@@ -33,7 +33,7 @@
             <label for="mail">Email</label>
             <input type="email" name="mail" placeholder="Enter your email" required><br>
             <label for="comment">Comment</label>
-            <input type="text" name="comment" size="50" id="comment" placeholder="Enter your commment" required><br><br>
+            <textarea rows="5" cols="50" name="comment" id="comment" placeholder="Enter your commment" required></textarea><br><br>
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
         </form>

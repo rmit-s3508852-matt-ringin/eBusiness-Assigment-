@@ -20,7 +20,7 @@
          <h3>Your comment has been succesfully sent </h3>
           <b> Name: </b> <?php echo $_POST["name"]; ?> <br>
           <b> Email: </b> <?php echo $_POST["mail"]; ?> <br>
-          <b> Comment: </b> <?php echo $_POST["comment"]; ?> <br>
+          <b> Comment: </b> <?php echo wordwrap ($_POST["comment"], 75, "<br>\n"); ?> <br>
           <p> Thank you. We well get back to you as soon as possible. </p>
         </div>
 
