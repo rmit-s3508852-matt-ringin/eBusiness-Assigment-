@@ -9,7 +9,7 @@
 
     <?php include "sections/navbar.php"; ?>
 
-    <div class = "main" id="cartPage">
+    <div class = "main cartPage">
         
         <img src="images/logo.png" alt="Edgy prints logo" class="logoHome">
         <div class = "welcome"> Cart </div>

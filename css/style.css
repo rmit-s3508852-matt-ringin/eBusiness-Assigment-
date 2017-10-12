@@ -168,7 +168,6 @@ html, body {
     height: 1px;
     border-top: 1px solid black;
     
-
     margin-top: 50px;
 }
 
@@ -266,7 +265,7 @@ html, body {
 
 .story {
     width: 700px;
-    height: 220px; 
+    height: 240px; 
     margin: auto;
     margin-top: 20px;
     padding:20px;
@@ -433,6 +432,17 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
 input[type=email], select {
     width: 100%;
     padding: 12px 20px;
@@ -484,6 +494,16 @@ input[type=reset] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 input[type=submit]:hover {
@@ -598,7 +618,7 @@ input[type=reset]:hover {
 .singleItem {
 	
 	width: 900px;
-    height: 700px; 
+    height: 800px; 
     margin: auto;
     margin-top: 20px;
     padding:20px;
@@ -645,7 +665,7 @@ input[type=reset]:hover {
 
 /*****************************************************************Cart********************************************************************/
 
-#cartPage {  
+.cartPage {  
     min-height: 1100px;
     height:auto !important;
     height: 1600px;
@@ -704,13 +724,54 @@ input[type=reset]:hover {
 /*****************************************************************Checkout********************************************************************/
 
 .checkoutBox {
-    height: 600px;
+    height: 900px;
     width: 800px;
     margin: auto;
     margin-top: 50px;
     padding: 15px;
     background-color: white;
     border: 1px dotted black;
+}
+
+.checkoutInput {
+    width: 70%;
+}
+
+.checkoutInfo {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.checkoutinfo Input {
+    width: 80%;
+}
+
+.pageBreak1 {
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input.checkoutInput {
+     width: 60%;
+}
+
+select.expiry {
+    width: 145px;
+    float: left;
+    margin-left: 10px;
+}
+
+#month{
+    margin-left: 100px;
+}
+
+input.checkoutButton {
+    width: 60%;
 }
 
 
@@ -820,3 +881,38 @@ input[type=reset]:hover {
 }
 
 textarea { resize: none; }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*****************************************************************Confirmation order********************************************************************/
+
+.orderSuccess {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.orderDetails {
+    font-size: 24px;
+    text-align: center;
+}
+
+.orderPage {
+    min-height: 600px;
+    max-height: 1600px;
+}
+
+.siteMapBox {
+    margin: auto;
+    width: 1400px;
+    margin-top:100px;
+    text-align: center;
+    padding: 30px;
+    border: 1px black solid;
+    background-color: #232526;
+}

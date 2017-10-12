@@ -31,12 +31,12 @@
 			        
                     $exist = 1;
 
-                    $_SESSION['$user'] = $a;
-    		        $_SESSION['$password'] = $b;
-    		        $_SESSION['$name'] = $c;
-    		        $_SESSION['$address'] = $d;
-    		        $_SESSION['$email'] = $e;
-			        $_SESSION['$newsletter'] = $f;
+                    $_SESSION['user'] = $a;
+    		        $_SESSION['password'] = $b;
+    		        $_SESSION['name'] = $c;
+    		        $_SESSION['address'] = $d;
+    		        $_SESSION['email'] = $e;
+			        $_SESSION['newsletter'] = $f;
 			        break;
 		        }
 	        }
@@ -45,8 +45,19 @@
                 $_SESSION['logged_in'] = 'true';
 	        	echo "This username and password is valid! <br/><br/>You are now logged in! <br/><br/>";
                 echo "Please click the link to go to <a href='home.php'>Home</a>";
+
+                file_get_contents('counter.txt');
+                $variable_from_file = (int)file_get_contents('counter.txt');
+                $variable_from_file++;
+                file_put_contents('counter.txt', $variable_from_file);
+		        }    
+
+
+                $file = fopen('database/count.txt',"a");
+				fwrite($file,$newuser);
+				fclose($file);
 	        }else{
-		        echo "Your username and/or password is not valid <br/><br/>Please try again at<a href='login.php'>Login</a>";
+		        echo "Your username and/or password is not valid <br/><br/>Please try again at <a href='login.php'>Login</a>";
             }
 
          ?>

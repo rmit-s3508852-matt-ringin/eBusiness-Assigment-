@@ -8,6 +8,11 @@
                 <li>(03) 9543 5234</li>
                 <li>support@edgyprints.com </li>
                 <li>453 Kingston Street, Melbourne, VIC, 3001</li>
+                <li>Total site visitors: <?php file_get_contents('database/counter.txt');
+                $variable_from_file = (int)file_get_contents('database/counter.txt');
+                echo $variable_from_file;
+                 ?>
+                </li>
             </ul>
         </div>
 

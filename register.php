@@ -20,8 +20,8 @@
             Full name: <input type="text" name="name" required> <br/>
             Address: <input type="text" name="address" required> <br/>
             Email: <input type="email" name="email" required> <br/>
-            Username: <input type="text" name="username" min = '5' required> <br/>
-            Password: <input type="password" name="password" required> <br/>
+            Username: <input type="text" name="username" required> <br/>
+            Password: <input type="password" name="password" pattern=".{6,}" required title="Must be 6 or more characters"> <br/>
             Would you like to be signed up to our newsletter?:  
             <fieldset id="group1" required>
                 <input type="radio" name="newsletter" value="yes" required>

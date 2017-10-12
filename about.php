@@ -21,7 +21,8 @@
             It  started as a businesss idea for the four students studying e-Commerce at RMIT. <br>
             Edgy Prints produces cothing for teens including generation Y with many broad designs for T-Shirts, Devices and Canvas.<br><br>
             <a href="contactUs.php" class = "link" id ="alt">Contact Us</a><br>
-            <a href="poll.php" class = "link" id ="alt">Feedback Poll</a>
+            <a href="poll.php" class = "link" id ="alt">Feedback Poll</a><br>
+            <a href="siteMap.php" class = "link" id ="alt">Site Map</a>
         </div>
 
 

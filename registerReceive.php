@@ -61,6 +61,11 @@
 				fwrite($file,$newuser);
 				fclose($file);
 
+				file_get_contents('database/counter.txt');
+                $variable_from_file = (int)file_get_contents('database/counter.txt');
+                $variable_from_file++;
+                file_put_contents('database/counter.txt', $variable_from_file);
+
 				if($newsletter == 'no') {
 				echo "You havn't been singed up to the newsletter </br></br>";
 				}
