@@ -23,6 +23,7 @@
             <a href="contactUs.php" class = "link" id ="alt">Contact Us</a><br>
             <a href="research.php" class = "link" id ="alt">Research</a><br>
             <a href="poll.php" class = "link" id ="alt">Feedback Poll</a><br>
+            <a href="siteMap.php" class = "link" id ="alt">Site Map</a><br>
         </div>
 
 
