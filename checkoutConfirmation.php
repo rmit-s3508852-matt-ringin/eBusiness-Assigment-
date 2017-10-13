@@ -28,9 +28,12 @@
             <p class="orderDetails"><b> Name: </b> <?php echo $_POST['name']; ?> </p>
             <p class="orderDetails"><b> Address: </b> <?php echo $_POST['address']; ?> </p>
             <p class="orderDetails"><b> Email: </b> <?php echo $_POST['email']; ?>  </p> 
-
+            
+            <form action="home.php">
+            <input id="clickMe" type="submit" value="Back to home" onclick=" RemoveFromCart1(0);" />
+            </form>
         </div>
-
+         
     </div>
 
 

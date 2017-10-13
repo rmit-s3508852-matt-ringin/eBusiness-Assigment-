@@ -426,6 +426,27 @@ function RemoveFromCart(RemOrder) {
    }
 }
 
+//---------------------------------------------------------------------||
+// FUNCTION:    RemoveFromCart                                         ||
+// PARAMETERS:  Order Number to Remove                                 ||
+// RETURNS:     Null                                                   ||
+// PURPOSE:     Removes an item from a users shopping cart             ||
+//---------------------------------------------------------------------||
+function RemoveFromCart1(RemOrder) {
+   
+      NumberOrdered = GetCookie("NumberOrdered");
+      for ( i=RemOrder; i < NumberOrdered; i++ ) {
+         NewOrder1 = "Order." + (i+1);
+         NewOrder2 = "Order." + (i);
+         database = GetCookie(NewOrder1);
+         SetCookie (NewOrder2, database, null, "/");
+      
+      NewOrder = "Order." + NumberOrdered;
+      SetCookie ("NumberOrdered", NumberOrdered-1, null, "/");
+      DeleteCookie(NewOrder, "/");
+      location.href=location.href;
+   }
+}
 
 //---------------------------------------------------------------------||
 // FUNCTION:    ChangeQuantity                                         ||

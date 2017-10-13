@@ -18,7 +18,6 @@
           <div class="siteMapBox">
           <img src="images/siteMap.png" alt="Site map" class="siteMap">
           </div>
-        	 
         </div>
 
     </div>

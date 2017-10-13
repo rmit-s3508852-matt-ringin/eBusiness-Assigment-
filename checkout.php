@@ -27,7 +27,7 @@
             <input type="text" class="checkoutInput" name="email" value="<?php echo $_SESSION['email']; ?>" required><br>
             <input type="text"  class="checkoutInput"name="address" value="<?php echo $_SESSION['address']; ?>" required><br>
             <div class="pageBreak1"></div>
-            <input type="number" class="checkoutInput" placeholder="Card Number" name="card" maxlength="10" required title="Not a valid card number. Must be 16 digits."><br>
+            <input type="text" class="checkoutInput" placeholder="Card Number" name="card" pattern="[0-9]{16,16}" required title="Not a valid card number. Must be 16 digits."><br>
             <select  class="checkoutInput expiry" id="month" placeholder="Month" name="month" required>
                 <option value="" selected disabled hidden>Month</option>
                 <option value="january"> January </option>
@@ -51,13 +51,12 @@
                 <option value="2020"> 2020 </option>
                 <option value="2021"> 2021 </option>
             </select><br>
-            <input type="number" class="checkoutInput" placeholder="CVV" name="cvv" pattern=".{3,4}" required title="Not a valid CVV. Must be 3 or 4 digits"><br>
+            <input type="text" class="checkoutInput" placeholder="CVV" name="cvv" pattern="[0-9]{3,4}" required title="Not a valid CVV. Must be 3 or 4 digits"><br>
             <br /><br />
             <input type="submit" class ="checkoutButton" value="Submit Order" />
             </div>
         </form>
         </div>
-
     </div>
 
 

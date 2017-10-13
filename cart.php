@@ -25,7 +25,6 @@
 
             <input id = "cartCheckout" type="submit" value="Check Out" />
         </form>
-        
         </div>
     </div>
 
