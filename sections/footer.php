@@ -3,7 +3,7 @@
 <div class = "footer"> 
     <div class = "footerWrapper"> 
 
-        <div class = "footerList footerContact">
+        <div class = "footerList footerContact footerNew">
             <ul>
                 <li>(03) 9543 5234</li>
                 <li>support@edgyprints.com </li>
@@ -16,22 +16,24 @@
             </ul>
         </div>
 
-        <div class = "footerList footerHelp">
+        <div class = "footerList footerHelp footerNew">
              <ul>
-                <li><a href="about.php" class = "link">About Us</a></li>
-                <li><a href="research.php" class = "link">Research</a></li>
+                <li><a href="terms.php" class = "link">Terms and Conditions</a></li>
+                <li><a href="privacyPolicy.php" class = "link">Privacy Policy</a></li>
                 <li><a href="contactUs.php" class = "link">Contact Us</a></li>
-                <li><a href="poll.php" class = "link">Poll</a></li>
+                <li><a href="shippingPolicy.php" class = "link">Shipping Policy</a></li>
+                <li><a href="disclaimerPolicy.php" class = "link">Disclaimer Policy</a></li>
+                <li><a href="returns.php" class = "link">Cancellation, Return and Refund Policy</a></li>
             </ul>
         </div>
 
         <div class = "footerList footerSocial" id = "social">
             <a>Social Links</a><br>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/Edgy-Prints-276560496178417/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/EdgyPrints" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-google"></a>
             <a href="#" class="fa fa-pinterest"></a>
-            <a href="#" class="fa fa-instagram"></a>
+            <a href="https://www.instagram.com/edgyprintsss/" class="fa fa-instagram"></a>
         </div>
 
         <div class = "footerList">

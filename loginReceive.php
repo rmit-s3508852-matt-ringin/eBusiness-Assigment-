@@ -46,16 +46,11 @@
 	        	echo "This username and password is valid! <br/><br/>You are now logged in! <br/><br/>";
                 echo "Please click the link to go to <a href='home.php'>Home</a>";
 
-                file_get_contents('counter.txt');
-                $variable_from_file = (int)file_get_contents('counter.txt');
+                file_get_contents('database/counter.txt');
+                $variable_from_file = (int)file_get_contents('database/counter.txt');
                 $variable_from_file++;
-                file_put_contents('counter.txt', $variable_from_file);
-		        }    
+                file_put_contents('database/counter.txt', $variable_from_file);
 
-
-                $file = fopen('database/count.txt',"a");
-				fwrite($file,$newuser);
-				fclose($file);
 	        }else{
 		        echo "Your username and/or password is not valid <br/><br/>Please try again at <a href='login.php'>Login</a>";
             }

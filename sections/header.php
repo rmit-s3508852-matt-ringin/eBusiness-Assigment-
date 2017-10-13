@@ -33,6 +33,9 @@
         function goBack() {
         window.history.back();
         }
-    </script>
+</script>
+
+<meta name="description" content="Browse the greatest online selection of Prints including Canvas, T-Shirts and Devices">
+<meta name="keywords" content="shirts, canvas, devices, edgy, prints, iPhone, android, pop culture, australia, tv shows, movies, music, unique">
 
    
